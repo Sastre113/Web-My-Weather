@@ -1,0 +1,24 @@
+* { 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+.grid{
+    display:grid;
+    grid-template-columns: minmax(10%, auto) 80% minmax(10%,auto);
+   
+   
+}
+
+.center{
+    text-align: center;
+    background-color: aqua;
+}
+
+.column{
+    background-color: grey;
+    height: 100%;
+}
